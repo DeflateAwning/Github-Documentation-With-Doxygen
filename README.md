@@ -27,9 +27,10 @@ Skip this if you already have doxygen configured
 
 ## Configuring automatic publishing using github actions
 * Copy the action file `main.yml` to `.github/workflows/main.yml`
-* Commit and Push to github
-* Github action should automatically start running
-* Confirm that github is set to deploy `gh-pages` branch in settings page
+* Change the branch name from `master` to `main`, if applicable
+* Commit and Push to Github
+* Github Action should automatically start running
+* Confirm that Github is set to deploy `gh-pages` branch in "Settings > Pages" page
 
 ## Notes
 * Ensure that `publish_dir` in `main.yml` is set correctly
